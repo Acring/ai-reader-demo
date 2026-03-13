@@ -109,9 +109,10 @@ function App() {
     const footnotes: string[] = [];
 
     for (const para of paragraphs) {
+      const headingPrefix = para.tag === 'h1' ? '# ' : para.tag === 'h2' ? '## ' : para.tag === 'h3' ? '### ' : '';
       const paraHighlights = highlights.filter((h) => h.paragraphId === para.id);
       if (paraHighlights.length === 0) {
-        md += para.text + '\n\n';
+        md += headingPrefix + para.text + '\n\n';
       } else {
         // Apply highlights as **bold** markers and append comments as footnotes
         const sorted = [...paraHighlights].sort((a, b) => a.startOffset - b.startOffset);
@@ -134,7 +135,7 @@ function App() {
         if (cursor < para.text.length) {
           line += para.text.slice(cursor);
         }
-        md += line + '\n\n';
+        md += headingPrefix + line + '\n\n';
       }
     }
 

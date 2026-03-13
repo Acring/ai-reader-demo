@@ -130,6 +130,30 @@
   background: rgba(0, 0, 0, 0.02);
 }
 
+.paragraph-h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 28px 0 16px;
+  color: #111111;
+}
+
+.paragraph-h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 22px 0 12px;
+  color: #1a1a1a;
+}
+
+.paragraph-h3 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 18px 0 10px;
+  color: #1a1a1a;
+}
+
 .highlight-mark {
   border-radius: 2px;
   padding: 1px 0;

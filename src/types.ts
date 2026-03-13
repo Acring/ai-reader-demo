@@ -1,7 +1,11 @@
+export type ParagraphTag = 'h1' | 'h2' | 'h3' | 'p';
+
 export interface Paragraph {
   id: string;
   pageNum: number;
   text: string;
+  /** Semantic tag inferred from font size */
+  tag: ParagraphTag;
 }
 
 export interface Highlight {

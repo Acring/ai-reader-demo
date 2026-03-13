@@ -129,9 +129,15 @@ export function DocumentView({
             {showPageHeader && (
               <div className="page-header">第 {para.pageNum} 页</div>
             )}
-            <p className="paragraph" data-paragraph-id={para.id}>
-              {renderHighlightedText(para.text, paraHighlights, activeCommentId, onCommentClick)}
-            </p>
+            {(() => {
+              const Tag = para.tag === 'p' ? 'p' : para.tag;
+              const className = para.tag === 'p' ? 'paragraph' : `paragraph paragraph-${para.tag}`;
+              return (
+                <Tag className={className} data-paragraph-id={para.id}>
+                  {renderHighlightedText(para.text, paraHighlights, activeCommentId, onCommentClick)}
+                </Tag>
+              );
+            })()}
           </div>
         );
       })}

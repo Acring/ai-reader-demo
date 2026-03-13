@@ -1,15 +1,20 @@
 import { useState, useCallback } from 'react';
-import { GlobalWorkerOptions, getDocument } from 'pdfjs-dist';
-import type { Paragraph } from '../types';
-
-GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.mjs',
-  import.meta.url,
-).toString();
+import pdf2md from '@opendocsg/pdf2md';
+import type { Paragraph, ParagraphTag } from '../types';
 
 let idCounter = 0;
 function nextId() {
   return 'p' + (++idCounter);
+}
+
+function inferTag(line: string): { tag: ParagraphTag; text: string } {
+  // pdf2md 会把大量正文也标记为 ###，所以只识别 # 和 ##
+  if (line.startsWith('# ') && !line.startsWith('## ')) return { tag: 'h1', text: line.slice(2) };
+  if (line.startsWith('## ') && !line.startsWith('### ')) return { tag: 'h2', text: line.slice(3) };
+  // ### 及更深层级当作正文
+  const match = line.match(/^#{3,6}\s/);
+  if (match) return { tag: 'p', text: line.slice(match[0].length) };
+  return { tag: 'p', text: line };
 }
 
 export function usePDF() {
@@ -23,73 +28,29 @@ export function usePDF() {
 
     try {
       const arrayBuffer = await file.arrayBuffer();
-      const doc = await getDocument({ data: arrayBuffer }).promise;
+      const markdown = await pdf2md(arrayBuffer);
+      console.log('=== pdf2md raw output (first 3000 chars) ===');
+      console.log(markdown.slice(0, 3000));
+
       const result: Paragraph[] = [];
+      // Split by page breaks
+      const pages = markdown.split('<!-- PAGE_BREAK -->\n');
 
-      for (let i = 1; i <= doc.numPages; i++) {
-        const page = await doc.getPage(i);
-        const content = await page.getTextContent();
+      for (let pageIdx = 0; pageIdx < pages.length; pageIdx++) {
+        const pageContent = pages[pageIdx];
+        // Split into paragraphs by blank lines
+        const blocks = pageContent.split(/\n{2,}/);
 
-        // Group text items into lines based on y-position,
-        // then merge adjacent lines into paragraphs by gaps.
-        const lines: { y: number; text: string; fontSize: number }[] = [];
+        for (const block of blocks) {
+          const trimmed = block.trim();
+          if (!trimmed) continue;
 
-        for (const item of content.items) {
-          if (!('str' in item) || !item.str.trim()) continue;
-          // item.transform: [scaleX, skewX, skewY, scaleY, x, y]
-          const y = item.transform[5];
-          const fontSize = Math.abs(item.transform[3]);
-          const text = item.str;
-
-          // Merge into existing line if same y (within tolerance)
-          const existing = lines.find((l) => Math.abs(l.y - y) < fontSize * 0.3);
-          if (existing) {
-            existing.text += text;
-          } else {
-            lines.push({ y, text, fontSize });
-          }
-        }
-
-        // Sort lines top to bottom (PDF y is bottom-up, so larger y = higher)
-        lines.sort((a, b) => b.y - a.y);
-
-        // Merge lines into paragraphs: if gap between lines > 1.5x fontSize, new paragraph
-        let currentParagraph = '';
-        let lastY = 0;
-        let lastFontSize = 12;
-
-        for (let j = 0; j < lines.length; j++) {
-          const line = lines[j];
-          if (j === 0) {
-            currentParagraph = line.text;
-            lastY = line.y;
-            lastFontSize = line.fontSize;
-            continue;
-          }
-
-          const gap = lastY - line.y;
-          if (gap > lastFontSize * 1.8) {
-            // Large gap — start new paragraph
-            if (currentParagraph.trim()) {
-              result.push({
-                id: nextId(),
-                pageNum: i,
-                text: currentParagraph.trim(),
-              });
-            }
-            currentParagraph = line.text;
-          } else {
-            currentParagraph += ' ' + line.text;
-          }
-          lastY = line.y;
-          lastFontSize = line.fontSize;
-        }
-
-        if (currentParagraph.trim()) {
+          const { tag, text } = inferTag(trimmed);
           result.push({
             id: nextId(),
-            pageNum: i,
-            text: currentParagraph.trim(),
+            pageNum: pageIdx + 1,
+            text,
+            tag,
           });
         }
       }
