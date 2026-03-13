@@ -1,4 +1,5 @@
 import type { Comment } from '../types';
+import { Button } from '@/components/ui/button';
 
 interface CommentSidebarProps {
   comments: Comment[];
@@ -34,15 +35,16 @@ export function CommentSidebar({
           <div className="comment-quote">"{comment.selectedText}"</div>
           <div className="comment-content">{comment.content}</div>
           <div className="comment-actions">
-            <button
-              className="comment-delete"
+            <Button
+              variant="destructive"
+              size="xs"
               onClick={(e) => {
                 e.stopPropagation();
                 onDelete(comment.id);
               }}
             >
               删除
-            </button>
+            </Button>
           </div>
         </div>
       ))}

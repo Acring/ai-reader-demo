@@ -1,3 +1,5 @@
+import { Button } from '@/components/ui/button';
+
 interface ToolbarProps {
   color: string;
   onColorChange: (color: string) => void;
@@ -18,7 +20,7 @@ export function Toolbar({
   return (
     <div className="toolbar">
       <div className="toolbar-section">
-        <label className="file-input-label">
+        <Button render={<label />} className="cursor-pointer">
           打开 PDF
           <input
             type="file"
@@ -29,11 +31,11 @@ export function Toolbar({
             }}
             hidden
           />
-        </label>
+        </Button>
         {hasContent && (
-          <button className="export-btn" onClick={onExport}>
+          <Button variant="secondary" onClick={onExport}>
             导出 Markdown
-          </button>
+          </Button>
         )}
       </div>
 
