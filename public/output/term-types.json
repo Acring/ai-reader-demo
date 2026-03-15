@@ -1,0 +1,1658 @@
+{
+  "量子信息": {
+    "type": "technology"
+  },
+  "人工智能": {
+    "type": "technology"
+  },
+  "新型储能": {
+    "type": "technology"
+  },
+  "数字经济": {
+    "type": "industry"
+  },
+  "基因编辑": {
+    "type": "technology"
+  },
+  "脑科学": {
+    "type": "technology"
+  },
+  "氢能": {
+    "type": "technology"
+  },
+  "光伏": {
+    "type": "technology"
+  },
+  "碳达峰": {
+    "type": "goal"
+  },
+  "碳中和": {
+    "type": "goal"
+  },
+  "生物制造": {
+    "type": "industry"
+  },
+  "集成电路": {
+    "type": "industry"
+  },
+  "新能源汽车": {
+    "type": "industry"
+  },
+  "量子科技": {
+    "type": "technology"
+  },
+  "低空经济": {
+    "type": "industry"
+  },
+  "航空航天": {
+    "type": "industry"
+  },
+  "新材料": {
+    "type": "industry"
+  },
+  "新能源": {
+    "type": "industry"
+  },
+  "脑机接口": {
+    "type": "technology"
+  },
+  "具身智能": {
+    "type": "technology"
+  },
+  "第六代移动通信": {
+    "type": "technology"
+  },
+  "工业母机": {
+    "type": "industry"
+  },
+  "高端仪器": {
+    "type": "industry"
+  },
+  "基础软件": {
+    "type": "industry"
+  },
+  "先进材料": {
+    "type": "industry"
+  },
+  "科技金融": {
+    "type": "industry"
+  },
+  "绿色金融": {
+    "type": "industry"
+  },
+  "普惠金融": {
+    "type": "industry"
+  },
+  "养老金融": {
+    "type": "industry"
+  },
+  "数字金融": {
+    "type": "industry"
+  },
+  "数字人民币": {
+    "type": "product"
+  },
+  "自由贸易试验区": {
+    "type": "policy"
+  },
+  "海南自由贸易港": {
+    "type": "policy"
+  },
+  "中欧班列": {
+    "type": "infrastructure"
+  },
+  "西部陆海新通道": {
+    "type": "infrastructure"
+  },
+  "高标准农田": {
+    "type": "infrastructure"
+  },
+  "黑土地保护": {
+    "type": "policy"
+  },
+  "盐碱地综合利用": {
+    "type": "policy"
+  },
+  "种业振兴": {
+    "type": "policy"
+  },
+  "现代设施农业": {
+    "type": "industry"
+  },
+  "林下经济": {
+    "type": "industry"
+  },
+  "农业社会化服务": {
+    "type": "service"
+  },
+  "县域经济": {
+    "type": "industry"
+  },
+  "农村集体经济": {
+    "type": "institution"
+  },
+  "京津冀": {
+    "type": "region"
+  },
+  "长三角": {
+    "type": "region"
+  },
+  "粤港澳大湾区": {
+    "type": "region"
+  },
+  "长江经济带": {
+    "type": "region"
+  },
+  "黄河流域": {
+    "type": "region"
+  },
+  "雄安新区": {
+    "type": "region"
+  },
+  "成渝地区双城经济圈": {
+    "type": "region"
+  },
+  "主体功能区": {
+    "type": "policy"
+  },
+  "新型城镇化": {
+    "type": "policy"
+  },
+  "常住地登记户口": {
+    "type": "policy"
+  },
+  "超大特大城市治理": {
+    "type": "policy"
+  },
+  "城市群一体化": {
+    "type": "policy"
+  },
+  "都市圈同城化": {
+    "type": "policy"
+  },
+  "县城城镇化": {
+    "type": "policy"
+  },
+  "城市更新": {
+    "type": "policy"
+  },
+  "海洋经济": {
+    "type": "industry"
+  },
+  "海洋强国": {
+    "type": "goal"
+  },
+  "海洋装备制造业": {
+    "type": "industry"
+  },
+  "海洋新兴产业": {
+    "type": "industry"
+  },
+  "现代航运服务业": {
+    "type": "industry"
+  },
+  "海洋调查": {
+    "type": "service"
+  },
+  "海洋能源资源": {
+    "type": "resource"
+  },
+  "海域海岛开发": {
+    "type": "policy"
+  },
+  "生态环境保护修复": {
+    "type": "policy"
+  },
+  "深海极地考察": {
+    "type": "policy"
+  },
+  "高质量充分就业": {
+    "type": "goal"
+  },
+  "就业优先战略": {
+    "type": "policy"
+  },
+  "就业促进机制": {
+    "type": "mechanism"
+  },
+  "新职业": {
+    "type": "concept"
+  },
+  "新岗位": {
+    "type": "concept"
+  },
+  "人力资源供需匹配": {
+    "type": "mechanism"
+  },
+  "终身职业技能培训": {
+    "type": "policy"
+  },
+  "结构性就业矛盾": {
+    "type": "issue"
+  },
+  "高校毕业生就业": {
+    "type": "issue"
+  },
+  "农民工就业": {
+    "type": "issue"
+  },
+  "退役军人就业": {
+    "type": "issue"
+  },
+  "灵活就业": {
+    "type": "industry"
+  },
+  "新就业形态": {
+    "type": "industry"
+  },
+  "创业带动就业": {
+    "type": "policy"
+  },
+  "劳动标准体系": {
+    "type": "standard"
+  },
+  "劳动关系协商": {
+    "type": "mechanism"
+  },
+  "劳动者权益保障": {
+    "type": "right"
+  },
+  "收入分配制度": {
+    "type": "policy"
+  },
+  "按劳分配": {
+    "type": "mechanism"
+  },
+  "初次分配机制": {
+    "type": "mechanism"
+  },
+  "劳动报酬": {
+    "type": "right"
+  },
+  "工资集体协商": {
+    "type": "mechanism"
+  },
+  "最低工资标准": {
+    "type": "standard"
+  },
+  "财产性收入": {
+    "type": "concept"
+  },
+  "税收调节": {
+    "type": "mechanism"
+  },
+  "社会保障": {
+    "type": "policy"
+  },
+  "转移支付": {
+    "type": "mechanism"
+  },
+  "公益慈善": {
+    "type": "service"
+  },
+  "收入分配秩序": {
+    "type": "concept"
+  },
+  "财富积累机制": {
+    "type": "mechanism"
+  },
+  "中等收入群体": {
+    "type": "group"
+  },
+  "橄榄型分配": {
+    "type": "concept"
+  },
+  "立德树人": {
+    "type": "concept"
+  },
+  "思政课堂": {
+    "type": "service"
+  },
+  "社会课堂": {
+    "type": "service"
+  },
+  "体育教育": {
+    "type": "service"
+  },
+  "美育教育": {
+    "type": "service"
+  },
+  "劳动教育": {
+    "type": "service"
+  },
+  "教育评价体系": {
+    "type": "standard"
+  },
+  "义务教育优质均衡": {
+    "type": "goal"
+  },
+  "学前教育普惠": {
+    "type": "goal"
+  },
+  "普通高中办学": {
+    "type": "service"
+  },
+  "特殊教育": {
+    "type": "service"
+  },
+  "专门教育": {
+    "type": "service"
+  },
+  "高等教育提质": {
+    "type": "goal"
+  },
+  "优质本科教育": {
+    "type": "goal"
+  },
+  "高职院校": {
+    "type": "institution"
+  },
+  "民办教育": {
+    "type": "industry"
+  },
+  "教育数字化": {
+    "type": "technology"
+  },
+  "终身学习": {
+    "type": "concept"
+  },
+  "养老保险全国统筹": {
+    "type": "policy"
+  },
+  "多层次养老保险": {
+    "type": "policy"
+  },
+  "医疗保障体系": {
+    "type": "policy"
+  },
+  "基本医疗保险": {
+    "type": "policy"
+  },
+  "药品集采": {
+    "type": "mechanism"
+  },
+  "医保支付": {
+    "type": "mechanism"
+  },
+  "失业保险": {
+    "type": "policy"
+  },
+  "工伤保险": {
+    "type": "policy"
+  },
+  "职业伤害保障": {
+    "type": "policy"
+  },
+  "社保关系转移": {
+    "type": "mechanism"
+  },
+  "灵活就业人员参保": {
+    "type": "policy"
+  },
+  "社保基金保值增值": {
+    "type": "goal"
+  },
+  "商业保险": {
+    "type": "industry"
+  },
+  "社保公共服务": {
+    "type": "service"
+  },
+  "社会救助体系": {
+    "type": "policy"
+  },
+  "空巢老人": {
+    "type": "group"
+  },
+  "困境儿童": {
+    "type": "group"
+  },
+  "残疾人保障": {
+    "type": "policy"
+  },
+  "退役军人服务": {
+    "type": "service"
+  },
+  "房地产发展新模式": {
+    "type": "policy"
+  },
+  "保障性住房": {
+    "type": "product"
+  },
+  "改善性住房": {
+    "type": "product"
+  },
+  "房屋品质提升": {
+    "type": "goal"
+  },
+  "物业服务": {
+    "type": "service"
+  },
+  "房屋全生命周期": {
+    "type": "concept"
+  },
+  "健康中国": {
+    "type": "goal"
+  },
+  "健康优先发展": {
+    "type": "concept"
+  },
+  "爱国卫生运动": {
+    "type": "service"
+  },
+  "公共卫生能力": {
+    "type": "goal"
+  },
+  "疾控体系": {
+    "type": "infrastructure"
+  },
+  "重大传染病防控": {
+    "type": "goal"
+  },
+  "医疗医保医药协同": {
+    "type": "mechanism"
+  },
+  "分级诊疗": {
+    "type": "service"
+  },
+  "公立医院改革": {
+    "type": "policy"
+  },
+  "基层医疗机构": {
+    "type": "institution"
+  },
+  "医疗卫生强基": {
+    "type": "goal"
+  },
+  "全民健康数智化": {
+    "type": "goal"
+  },
+  "慢性病防控": {
+    "type": "goal"
+  },
+  "中医药传承创新": {
+    "type": "goal"
+  },
+  "中西医结合": {
+    "type": "mechanism"
+  },
+  "创新药": {
+    "type": "product"
+  },
+  "医疗器械": {
+    "type": "product"
+  },
+  "心理健康": {
+    "type": "concept"
+  },
+  "精神卫生": {
+    "type": "concept"
+  },
+  "人口服务体系": {
+    "type": "service"
+  },
+  "生育支持政策": {
+    "type": "policy"
+  },
+  "育儿补贴": {
+    "type": "policy"
+  },
+  "个人所得税抵扣": {
+    "type": "policy"
+  },
+  "生育保险": {
+    "type": "policy"
+  },
+  "生育休假": {
+    "type": "policy"
+  },
+  "早孕关爱": {
+    "type": "service"
+  },
+  "出生缺陷防治": {
+    "type": "service"
+  },
+  "托育服务": {
+    "type": "service"
+  },
+  "托幼一体化": {
+    "type": "service"
+  },
+  "妇女儿童健康": {
+    "type": "service"
+  },
+  "人口老龄化": {
+    "type": "issue"
+  },
+  "养老事业": {
+    "type": "industry"
+  },
+  "养老产业": {
+    "type": "industry"
+  },
+  "基本养老服务": {
+    "type": "service"
+  },
+  "城乡养老网络": {
+    "type": "infrastructure"
+  },
+  "适老化改造": {
+    "type": "service"
+  },
+  "医养结合": {
+    "type": "service"
+  },
+  "长期护理保险": {
+    "type": "policy"
+  },
+  "失能失智照护": {
+    "type": "service"
+  },
+  "安宁疗护": {
+    "type": "service"
+  },
+  "延迟退休": {
+    "type": "policy"
+  },
+  "银发经济": {
+    "type": "industry"
+  },
+  "基本公共服务均等化": {
+    "type": "goal"
+  },
+  "公共资源配置": {
+    "type": "mechanism"
+  },
+  "县域公共服务": {
+    "type": "service"
+  },
+  "事业单位改革": {
+    "type": "policy"
+  },
+  "绿色发展": {
+    "type": "concept"
+  },
+  "碳达峰碳中和": {
+    "type": "goal"
+  },
+  "降碳减污扩绿增长": {
+    "type": "goal"
+  },
+  "生态安全屏障": {
+    "type": "infrastructure"
+  },
+  "污染防治攻坚": {
+    "type": "goal"
+  },
+  "生态系统优化": {
+    "type": "goal"
+  },
+  "精准科学依法治污": {
+    "type": "mechanism"
+  },
+  "减污降碳协同": {
+    "type": "mechanism"
+  },
+  "多污染物控制": {
+    "type": "mechanism"
+  },
+  "区域治理协同": {
+    "type": "mechanism"
+  },
+  "蓝天保卫战": {
+    "type": "goal"
+  },
+  "碧水保卫战": {
+    "type": "goal"
+  },
+  "净土保卫战": {
+    "type": "goal"
+  },
+  "排污许可制": {
+    "type": "policy"
+  },
+  "固体废物治理": {
+    "type": "service"
+  },
+  "新污染物治理": {
+    "type": "service"
+  },
+  "生态环境标准": {
+    "type": "standard"
+  },
+  "山水林田湖草沙": {
+    "type": "concept"
+  },
+  "生态保护红线": {
+    "type": "standard"
+  },
+  "国家公园": {
+    "type": "institution"
+  },
+  "生物多样性保护": {
+    "type": "goal"
+  },
+  "生态保护修复": {
+    "type": "service"
+  },
+  "国土绿化": {
+    "type": "service"
+  },
+  "三北工程": {
+    "type": "infrastructure"
+  },
+  "青藏高原生态屏障": {
+    "type": "infrastructure"
+  },
+  "生态补偿机制": {
+    "type": "mechanism"
+  },
+  "生态产品价值": {
+    "type": "concept"
+  },
+  "江河湖库治理": {
+    "type": "service"
+  },
+  "长江十年禁渔": {
+    "type": "policy"
+  },
+  "新型能源体系": {
+    "type": "infrastructure"
+  },
+  "新能源供给": {
+    "type": "service"
+  },
+  "化石能源替代": {
+    "type": "goal"
+  },
+  "新型电力系统": {
+    "type": "infrastructure"
+  },
+  "能源强国": {
+    "type": "goal"
+  },
+  "风光水核多能并举": {
+    "type": "mechanism"
+  },
+  "清洁能源": {
+    "type": "technology"
+  },
+  "煤电改造": {
+    "type": "service"
+  },
+  "散煤替代": {
+    "type": "policy"
+  },
+  "电力系统互补": {
+    "type": "mechanism"
+  },
+  "抽水蓄能": {
+    "type": "technology"
+  },
+  "智能电网": {
+    "type": "infrastructure"
+  },
+  "微电网": {
+    "type": "infrastructure"
+  },
+  "终端用能电气化": {
+    "type": "goal"
+  },
+  "能源消费绿色化": {
+    "type": "goal"
+  },
+  "能源市场机制": {
+    "type": "mechanism"
+  },
+  "碳排放双控": {
+    "type": "policy"
+  },
+  "节能降碳改造": {
+    "type": "service"
+  },
+  "煤炭消费达峰": {
+    "type": "goal"
+  },
+  "石油消费达峰": {
+    "type": "goal"
+  },
+  "碳排放统计核算": {
+    "type": "mechanism"
+  },
+  "碳考核": {
+    "type": "mechanism"
+  },
+  "碳管控": {
+    "type": "mechanism"
+  },
+  "碳管理": {
+    "type": "mechanism"
+  },
+  "碳评价": {
+    "type": "mechanism"
+  },
+  "碳足迹": {
+    "type": "standard"
+  },
+  "分布式能源": {
+    "type": "technology"
+  },
+  "零碳工厂": {
+    "type": "industry"
+  },
+  "零碳园区": {
+    "type": "industry"
+  },
+  "碳排放权交易": {
+    "type": "policy"
+  },
+  "温室气体减排": {
+    "type": "goal"
+  },
+  "绿色低碳标准": {
+    "type": "standard"
+  },
+  "国际规则标准": {
+    "type": "standard"
+  },
+  "气候变化适应": {
+    "type": "goal"
+  },
+  "极端天气应对": {
+    "type": "issue"
+  },
+  "生态环境分区管控": {
+    "type": "policy"
+  },
+  "国土空间规划": {
+    "type": "policy"
+  },
+  "产业布局优化": {
+    "type": "policy"
+  },
+  "工业绿色转型": {
+    "type": "policy"
+  },
+  "城乡建设绿色转型": {
+    "type": "policy"
+  },
+  "交通运输绿色转型": {
+    "type": "policy"
+  },
+  "资源总量管理": {
+    "type": "policy"
+  },
+  "垃圾分类": {
+    "type": "policy"
+  },
+  "资源化利用": {
+    "type": "policy"
+  },
+  "循环经济": {
+    "type": "industry"
+  },
+  "国家生态文明试验区": {
+    "type": "institution"
+  },
+  "美丽中国先行区": {
+    "type": "institution"
+  },
+  "绿色发展高地": {
+    "type": "goal"
+  },
+  "绿色低碳政策": {
+    "type": "policy"
+  },
+  "绿色消费激励": {
+    "type": "policy"
+  },
+  "国家安全体系": {
+    "type": "mechanism"
+  },
+  "新安全格局": {
+    "type": "goal"
+  },
+  "国家安全法治": {
+    "type": "policy"
+  },
+  "国家安全战略": {
+    "type": "policy"
+  },
+  "风险防控体系": {
+    "type": "mechanism"
+  },
+  "国家安全教育": {
+    "type": "policy"
+  },
+  "政治安全": {
+    "type": "right"
+  },
+  "粮食安全": {
+    "type": "right"
+  },
+  "能源资源安全": {
+    "type": "right"
+  },
+  "产业链供应链安全": {
+    "type": "right"
+  },
+  "重大基础设施安全": {
+    "type": "right"
+  },
+  "战略性矿产资源": {
+    "type": "resource"
+  },
+  "水资源集约利用": {
+    "type": "policy"
+  },
+  "战略通道安全": {
+    "type": "right"
+  },
+  "战略腹地建设": {
+    "type": "policy"
+  },
+  "产业备份": {
+    "type": "policy"
+  },
+  "网络安全": {
+    "type": "right"
+  },
+  "数据安全": {
+    "type": "right"
+  },
+  "人工智能安全": {
+    "type": "right"
+  },
+  "生物安全": {
+    "type": "right"
+  },
+  "生态安全": {
+    "type": "right"
+  },
+  "核安全": {
+    "type": "right"
+  },
+  "太空安全": {
+    "type": "right"
+  },
+  "深海安全": {
+    "type": "right"
+  },
+  "极地安全": {
+    "type": "right"
+  },
+  "低空安全": {
+    "type": "right"
+  },
+  "房地产风险": {
+    "type": "issue"
+  },
+  "地方政府债务风险": {
+    "type": "issue"
+  },
+  "中小金融机构风险": {
+    "type": "issue"
+  },
+  "系统性风险": {
+    "type": "issue"
+  },
+  "公共安全治理": {
+    "type": "policy"
+  },
+  "气象监测": {
+    "type": "service"
+  },
+  "水文监测": {
+    "type": "service"
+  },
+  "地质灾害预警": {
+    "type": "service"
+  },
+  "防灾减灾救灾": {
+    "type": "service"
+  },
+  "安全生产": {
+    "type": "policy"
+  },
+  "食品药品安全": {
+    "type": "right"
+  },
+  "基础设施安全": {
+    "type": "right"
+  },
+  "社会治安防控": {
+    "type": "policy"
+  },
+  "扫黑除恶": {
+    "type": "policy"
+  },
+  "电信网络诈骗": {
+    "type": "issue"
+  },
+  "毒品犯罪": {
+    "type": "issue"
+  },
+  "网络空间安全": {
+    "type": "right"
+  },
+  "个人信息保护": {
+    "type": "right"
+  },
+  "未成年人犯罪预防": {
+    "type": "policy"
+  },
+  "宽严相济刑事政策": {
+    "type": "policy"
+  },
+  "刑罚执行": {
+    "type": "policy"
+  },
+  "社会治理体系": {
+    "type": "mechanism"
+  },
+  "社会工作": {
+    "type": "service"
+  },
+  "社会组织": {
+    "type": "institution"
+  },
+  "行业协会商会": {
+    "type": "institution"
+  },
+  "党建引领基层治理": {
+    "type": "mechanism"
+  },
+  "基层政权建设": {
+    "type": "policy"
+  },
+  "枫桥经验": {
+    "type": "mechanism"
+  },
+  "乡村治理": {
+    "type": "policy"
+  },
+  "社区治理": {
+    "type": "policy"
+  },
+  "网上网下协同治理": {
+    "type": "mechanism"
+  },
+  "基层服务管理": {
+    "type": "service"
+  },
+  "市民公约": {
+    "type": "standard"
+  },
+  "村规民约": {
+    "type": "standard"
+  },
+  "家庭家教家风": {
+    "type": "concept"
+  },
+  "移风易俗": {
+    "type": "concept"
+  },
+  "社会心理服务": {
+    "type": "service"
+  },
+  "危机干预": {
+    "type": "service"
+  },
+  "市民热线": {
+    "type": "service"
+  },
+  "志愿服务": {
+    "type": "service"
+  },
+  "信访工作法治化": {
+    "type": "policy"
+  },
+  "矛盾纠纷化解": {
+    "type": "service"
+  },
+  "社会工作者": {
+    "type": "group"
+  },
+  "国防和军队现代化": {
+    "type": "goal"
+  },
+  "习近平强军思想": {
+    "type": "concept"
+  },
+  "军事战略方针": {
+    "type": "policy"
+  },
+  "军委主席负责制": {
+    "type": "mechanism"
+  },
+  "政治建军": {
+    "type": "policy"
+  },
+  "改革强军": {
+    "type": "policy"
+  },
+  "科技强军": {
+    "type": "policy"
+  },
+  "人才强军": {
+    "type": "policy"
+  },
+  "依法治军": {
+    "type": "policy"
+  },
+  "机械化信息化智能化": {
+    "type": "technology"
+  },
+  "战略威慑力量": {
+    "type": "concept"
+  },
+  "新域新质作战力量": {
+    "type": "concept"
+  },
+  "无人智能作战": {
+    "type": "technology"
+  },
+  "反制能力": {
+    "type": "concept"
+  },
+  "网络信息体系": {
+    "type": "infrastructure"
+  },
+  "数据资源开发": {
+    "type": "technology"
+  },
+  "智能化军事体系": {
+    "type": "infrastructure"
+  },
+  "现代化后勤": {
+    "type": "infrastructure"
+  },
+  "国防科技创新": {
+    "type": "technology"
+  },
+  "先进武器装备": {
+    "type": "product"
+  },
+  "军事人力资源": {
+    "type": "concept"
+  },
+  "军事人才": {
+    "type": "group"
+  },
+  "军事理论现代化": {
+    "type": "goal"
+  },
+  "实战化军事训练": {
+    "type": "mechanism"
+  },
+  "战斗力建设": {
+    "type": "goal"
+  },
+  "军事治理现代化": {
+    "type": "goal"
+  },
+  "领导管理体制": {
+    "type": "mechanism"
+  },
+  "联合作战体系": {
+    "type": "mechanism"
+  },
+  "战略管理": {
+    "type": "mechanism"
+  },
+  "战建备统筹": {
+    "type": "mechanism"
+  },
+  "作战需求牵引": {
+    "type": "mechanism"
+  },
+  "军事系统运行": {
+    "type": "mechanism"
+  },
+  "国防资源效益": {
+    "type": "concept"
+  },
+  "军事采购": {
+    "type": "mechanism"
+  },
+  "军队建设统计": {
+    "type": "mechanism"
+  },
+  "勤俭建军": {
+    "type": "policy"
+  },
+  "军事法治体系": {
+    "type": "mechanism"
+  },
+  "一体化国家战略": {
+    "type": "policy"
+  },
+  "跨军地改革": {
+    "type": "policy"
+  },
+  "新兴领域战略能力": {
+    "type": "concept"
+  },
+  "新质生产力": {
+    "type": "concept"
+  },
+  "新质战斗力": {
+    "type": "concept"
+  },
+  "国防科技工业": {
+    "type": "industry"
+  },
+  "军民标准通用化": {
+    "type": "standard"
+  },
+  "国防动员": {
+    "type": "policy"
+  },
+  "后备力量": {
+    "type": "concept"
+  },
+  "边海空防": {
+    "type": "policy"
+  },
+  "党政军警民合力": {
+    "type": "mechanism"
+  },
+  "全民国防教育": {
+    "type": "service"
+  },
+  "军政军民团结": {
+    "type": "concept"
+  },
+  "自我革命": {
+    "type": "concept"
+  },
+  "全面从严治党": {
+    "type": "policy"
+  },
+  "政治领导力": {
+    "type": "concept"
+  },
+  "思想引领力": {
+    "type": "concept"
+  },
+  "群众组织力": {
+    "type": "concept"
+  },
+  "社会号召力": {
+    "type": "concept"
+  },
+  "党内民主": {
+    "type": "mechanism"
+  },
+  "民主集中制": {
+    "type": "mechanism"
+  },
+  "科学决策": {
+    "type": "mechanism"
+  },
+  "民主决策": {
+    "type": "mechanism"
+  },
+  "依法决策": {
+    "type": "mechanism"
+  },
+  "正确用人导向": {
+    "type": "mechanism"
+  },
+  "政治标准": {
+    "type": "standard"
+  },
+  "正确政绩观": {
+    "type": "concept"
+  },
+  "干部考核评价": {
+    "type": "mechanism"
+  },
+  "干部能上能下": {
+    "type": "mechanism"
+  },
+  "教育培训": {
+    "type": "service"
+  },
+  "实践锻炼": {
+    "type": "service"
+  },
+  "干部队伍": {
+    "type": "group"
+  },
+  "基层党组织": {
+    "type": "institution"
+  },
+  "政治功能": {
+    "type": "concept"
+  },
+  "组织功能": {
+    "type": "concept"
+  },
+  "党员先锋模范作用": {
+    "type": "concept"
+  },
+  "中央八项规定": {
+    "type": "policy"
+  },
+  "作风建设": {
+    "type": "concept"
+  },
+  "形式主义整治": {
+    "type": "policy"
+  },
+  "基层减负": {
+    "type": "policy"
+  },
+  "党和国家监督体系": {
+    "type": "mechanism"
+  },
+  "权力监督": {
+    "type": "mechanism"
+  },
+  "反腐败斗争": {
+    "type": "policy"
+  },
+  "政治生态": {
+    "type": "concept"
+  },
+  "社会主义民主法治": {
+    "type": "concept"
+  },
+  "中国特色社会主义政治": {
+    "type": "concept"
+  },
+  "全过程人民民主": {
+    "type": "concept"
+  },
+  "人民代表大会制度": {
+    "type": "institution"
+  },
+  "多党合作": {
+    "type": "mechanism"
+  },
+  "政治协商制度": {
+    "type": "institution"
+  },
+  "人民政协": {
+    "type": "institution"
+  },
+  "协商民主": {
+    "type": "mechanism"
+  },
+  "基层民主制度": {
+    "type": "institution"
+  },
+  "群团组织": {
+    "type": "institution"
+  },
+  "产业工人队伍": {
+    "type": "group"
+  },
+  "青少年发展": {
+    "type": "issue"
+  },
+  "妇女儿童事业": {
+    "type": "issue"
+  },
+  "人权事业": {
+    "type": "issue"
+  },
+  "大统战工作": {
+    "type": "policy"
+  },
+  "爱国统一战线": {
+    "type": "mechanism"
+  },
+  "中华民族共同体": {
+    "type": "concept"
+  },
+  "宗教中国化": {
+    "type": "policy"
+  },
+  "宗教事务治理": {
+    "type": "policy"
+  },
+  "侨务政策": {
+    "type": "policy"
+  },
+  "侨心侨力": {
+    "type": "group"
+  },
+  "全面依法治国": {
+    "type": "policy"
+  },
+  "科学立法": {
+    "type": "policy"
+  },
+  "严格执法": {
+    "type": "policy"
+  },
+  "公正司法": {
+    "type": "policy"
+  },
+  "全民守法": {
+    "type": "policy"
+  },
+  "宪法法律实施": {
+    "type": "policy"
+  },
+  "法治统一": {
+    "type": "concept"
+  },
+  "立法规划": {
+    "type": "policy"
+  },
+  "立法审查": {
+    "type": "mechanism"
+  },
+  "法治政府建设": {
+    "type": "policy"
+  },
+  "行政规范性文件": {
+    "type": "policy"
+  },
+  "行政争议化解": {
+    "type": "mechanism"
+  },
+  "政法工作数字化": {
+    "type": "policy"
+  },
+  "执法司法协同": {
+    "type": "mechanism"
+  },
+  "司法权力运行": {
+    "type": "mechanism"
+  },
+  "司法公正": {
+    "type": "concept"
+  },
+  "检察监督": {
+    "type": "mechanism"
+  },
+  "公益诉讼": {
+    "type": "mechanism"
+  },
+  "人身权": {
+    "type": "right"
+  },
+  "财产权": {
+    "type": "right"
+  },
+  "人格权": {
+    "type": "right"
+  },
+  "涉企执法": {
+    "type": "mechanism"
+  },
+  "执行难": {
+    "type": "issue"
+  },
+  "涉外法治": {
+    "type": "policy"
+  },
+  "国际商事调解": {
+    "type": "mechanism"
+  },
+  "国际商事仲裁": {
+    "type": "mechanism"
+  },
+  "国际商事诉讼": {
+    "type": "mechanism"
+  },
+  "法治评价": {
+    "type": "standard"
+  },
+  "法治社会建设": {
+    "type": "policy"
+  },
+  "一国两制": {
+    "type": "policy"
+  },
+  "港人治港": {
+    "type": "policy"
+  },
+  "澳人治澳": {
+    "type": "policy"
+  },
+  "爱国者治港": {
+    "type": "policy"
+  },
+  "爱国者治澳": {
+    "type": "policy"
+  },
+  "港澳依法治理": {
+    "type": "policy"
+  },
+  "国际金融中心": {
+    "type": "region"
+  },
+  "国际航运中心": {
+    "type": "region"
+  },
+  "国际贸易中心": {
+    "type": "region"
+  },
+  "国际创新科技中心": {
+    "type": "region"
+  },
+  "澳门一中心": {
+    "type": "region"
+  },
+  "澳门一平台": {
+    "type": "institution"
+  },
+  "澳门一基地": {
+    "type": "institution"
+  },
+  "经济适度多元": {
+    "type": "concept"
+  },
+  "高端人才集聚": {
+    "type": "concept"
+  },
+  "两岸关系和平发展": {
+    "type": "concept"
+  },
+  "祖国统一": {
+    "type": "goal"
+  },
+  "台湾问题总体方略": {
+    "type": "policy"
+  },
+  "台独分裂势力": {
+    "type": "issue"
+  },
+  "外部势力干涉": {
+    "type": "issue"
+  },
+  "台海和平稳定": {
+    "type": "goal"
+  },
+  "两岸交流合作": {
+    "type": "concept"
+  },
+  "中华文化传承": {
+    "type": "concept"
+  },
+  "两岸融合发展": {
+    "type": "concept"
+  },
+  "产业合作": {
+    "type": "concept"
+  },
+  "台湾同胞同等待遇": {
+    "type": "policy"
+  },
+  "人类命运共同体": {
+    "type": "concept"
+  },
+  "世界多极化": {
+    "type": "concept"
+  },
+  "经济全球化": {
+    "type": "concept"
+  },
+  "全球伙伴关系": {
+    "type": "concept"
+  },
+  "新型国际关系": {
+    "type": "concept"
+  },
+  "周边命运共同体": {
+    "type": "concept"
+  },
+  "大国关系稳定": {
+    "type": "goal"
+  },
+  "发展中国家合作": {
+    "type": "concept"
+  },
+  "全球发展倡议": {
+    "type": "policy"
+  },
+  "全球安全倡议": {
+    "type": "policy"
+  },
+  "全球文明倡议": {
+    "type": "policy"
+  },
+  "全球治理倡议": {
+    "type": "policy"
+  },
+  "国际公平正义": {
+    "type": "concept"
+  },
+  "全人类共同价值": {
+    "type": "concept"
+  },
+  "持久和平": {
+    "type": "goal"
+  },
+  "普遍安全": {
+    "type": "goal"
+  },
+  "共同繁荣": {
+    "type": "goal"
+  },
+  "开放包容": {
+    "type": "concept"
+  },
+  "清洁美丽": {
+    "type": "goal"
+  },
+  "十五五规划": {
+    "type": "policy"
+  },
+  "国家规划体系": {
+    "type": "policy"
+  },
+  "规划实施监测": {
+    "type": "mechanism"
+  },
+  "政策协调": {
+    "type": "mechanism"
+  },
+  "工作协同": {
+    "type": "mechanism"
+  },
+  "创新创造活力": {
+    "type": "concept"
+  },
+  "中国式现代化": {
+    "type": "concept"
+  },
+  "社会主义现代化": {
+    "type": "concept"
+  },
+  "强国建设": {
+    "type": "goal"
+  },
+  "民族复兴": {
+    "type": "goal"
+  },
+  "现代化产业体系": {
+    "type": "concept"
+  },
+  "高水平科技自立自强": {
+    "type": "goal"
+  },
+  "原始创新": {
+    "type": "concept"
+  },
+  "关键核心技术攻关": {
+    "type": "concept"
+  },
+  "科技创新": {
+    "type": "concept"
+  },
+  "产业创新": {
+    "type": "concept"
+  },
+  "数字中国": {
+    "type": "concept"
+  },
+  "绿色生产生活方式": {
+    "type": "concept"
+  },
+  "国内大循环": {
+    "type": "concept"
+  },
+  "国际双循环": {
+    "type": "concept"
+  },
+  "新发展格局": {
+    "type": "concept"
+  },
+  "全国统一大市场": {
+    "type": "concept"
+  },
+  "要素市场化配置": {
+    "type": "mechanism"
+  },
+  "宏观经济治理": {
+    "type": "mechanism"
+  },
+  "制度型开放": {
+    "type": "policy"
+  },
+  "多边贸易体制": {
+    "type": "policy"
+  },
+  "共同富裕": {
+    "type": "concept"
+  },
+  "社会保障体系": {
+    "type": "policy"
+  },
+  "房地产高质量发展": {
+    "type": "goal"
+  },
+  "人口高质量发展": {
+    "type": "goal"
+  },
+  "农业农村现代化": {
+    "type": "goal"
+  },
+  "乡村全面振兴": {
+    "type": "goal"
+  },
+  "区域协调发展": {
+    "type": "goal"
+  },
+  "文化事业": {
+    "type": "industry"
+  },
+  "文化产业": {
+    "type": "industry"
+  },
+  "中华文明传播力": {
+    "type": "concept"
+  },
+  "先进战斗力": {
+    "type": "concept"
+  },
+  "一体化国家战略体系": {
+    "type": "concept"
+  }
+}

@@ -1,9 +1,11 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { usePDF } from './hooks/usePDF';
 import { Toolbar } from './components/Toolbar';
 import { DocumentView } from './components/DocumentView';
 import { CommentSidebar } from './components/CommentSidebar';
+import { TermLegend } from './components/TermLegend';
 import type { Highlight, Comment } from './types';
+import type { TermTypesMap } from './termColors';
 import './App.css';
 
 let idCounter = 0;
@@ -17,6 +19,15 @@ function App() {
   const [comments, setComments] = useState<Comment[]>([]);
   const [color, setColor] = useState('#ff0000');
   const [activeCommentId, setActiveCommentId] = useState<string | null>(null);
+  const [termTypes, setTermTypes] = useState<TermTypesMap | null>(null);
+
+  useEffect(() => {
+    if (paragraphs.length === 0) return;
+    fetch('/output/term-types.json')
+      .then((res) => res.json())
+      .then((data: TermTypesMap) => setTermTypes(data))
+      .catch((err) => console.warn('Failed to load term-types.json:', err));
+  }, [paragraphs]);
 
   // Selection popup state
   const [selectionPopup, setSelectionPopup] = useState<{
@@ -176,6 +187,7 @@ function App() {
               paragraphs={paragraphs}
               highlights={highlights}
               activeCommentId={activeCommentId}
+              termTypes={termTypes}
               onSelect={handleSelect}
               onCommentClick={setActiveCommentId}
             />
@@ -185,6 +197,7 @@ function App() {
               onActiveChange={setActiveCommentId}
               onDelete={handleDeleteComment}
             />
+            {termTypes && <TermLegend />}
           </>
         ) : (
           <div className="empty-state">
