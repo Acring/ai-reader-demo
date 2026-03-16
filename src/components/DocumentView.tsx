@@ -7,6 +7,7 @@ interface DocumentViewProps {
   highlights: Highlight[];
   activeCommentId: string | null;
   termTypes: TermTypesMap | null;
+  activeTerm: string | null;
   onSelect: (
     paragraphId: string,
     startOffset: number,
@@ -15,6 +16,7 @@ interface DocumentViewProps {
     rect: DOMRect,
   ) => void;
   onCommentClick: (commentId: string) => void;
+  onTermClick: (term: string) => void;
 }
 
 type TextSegment =
@@ -90,7 +92,9 @@ function buildSegments(
 
 function renderSegments(
   segments: TextSegment[],
+  activeTerm: string | null,
   onCommentClick: (commentId: string) => void,
+  onTermClick: (term: string) => void,
 ) {
   return segments.map((seg, i) => {
     switch (seg.kind) {
@@ -107,17 +111,20 @@ function renderSegments(
             {seg.text}
           </mark>
         );
-      case 'term':
+      case 'term': {
+        const isActive = activeTerm === seg.text;
         return (
           <span
             key={i}
-            className="term-colored"
-            style={{ color: seg.color }}
+            className={`term-colored ${isActive ? 'term-active' : ''}`}
+            style={isActive ? { backgroundColor: seg.color, color: '#fff' } : { color: seg.color }}
             title={`${seg.text} [${TERM_TYPE_COLORS[seg.type]?.label ?? seg.type}]`}
+            onClick={() => onTermClick(seg.text)}
           >
             {seg.text}
           </span>
         );
+      }
     }
   });
 }
@@ -127,8 +134,10 @@ export function DocumentView({
   highlights,
   activeCommentId,
   termTypes,
+  activeTerm,
   onSelect,
   onCommentClick,
+  onTermClick,
 }: DocumentViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -186,12 +195,12 @@ export function DocumentView({
             <div className="page-header">第 {para.pageNum} 页</div>
           )}
           <Tag className={className} data-paragraph-id={para.id}>
-            {renderSegments(segments, onCommentClick)}
+            {renderSegments(segments, activeTerm, onCommentClick, onTermClick)}
           </Tag>
         </div>
       );
     });
-  }, [paragraphs, highlights, activeCommentId, termTypes, onCommentClick]);
+  }, [paragraphs, highlights, activeCommentId, termTypes, activeTerm, onCommentClick, onTermClick]);
 
   return (
     <div className="document-view" ref={containerRef} onMouseUp={handleMouseUp}>

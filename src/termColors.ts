@@ -19,6 +19,7 @@ export const TERM_TYPE_COLORS: Record<string, { color: string; label: string }> 
 
 export interface TermEntry {
   type: string;
+  explanation?: string;
 }
 
 export type TermTypesMap = Record<string, TermEntry>;

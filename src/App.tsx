@@ -3,6 +3,7 @@ import { usePDF } from './hooks/usePDF';
 import { Toolbar } from './components/Toolbar';
 import { DocumentView } from './components/DocumentView';
 import { CommentSidebar } from './components/CommentSidebar';
+import { TermExplanationPanel } from './components/TermExplanationPanel';
 import { TermLegend } from './components/TermLegend';
 import type { Highlight, Comment } from './types';
 import type { TermTypesMap } from './termColors';
@@ -20,6 +21,7 @@ function App() {
   const [color, setColor] = useState('#ff0000');
   const [activeCommentId, setActiveCommentId] = useState<string | null>(null);
   const [termTypes, setTermTypes] = useState<TermTypesMap | null>(null);
+  const [activeTerm, setActiveTerm] = useState<string | null>(null);
 
   useEffect(() => {
     if (paragraphs.length === 0) return;
@@ -114,6 +116,10 @@ function App() {
     setActiveCommentId(null);
   }, []);
 
+  const handleTermClick = useCallback((term: string) => {
+    setActiveTerm((prev) => (prev === term ? null : term));
+  }, []);
+
   const handleExport = useCallback(() => {
     // Build markdown with annotations as footnotes
     let md = `# ${fileName}\n\n`;
@@ -188,8 +194,10 @@ function App() {
               highlights={highlights}
               activeCommentId={activeCommentId}
               termTypes={termTypes}
+              activeTerm={activeTerm}
               onSelect={handleSelect}
               onCommentClick={setActiveCommentId}
+              onTermClick={handleTermClick}
             />
             <CommentSidebar
               comments={comments}
@@ -197,6 +205,13 @@ function App() {
               onActiveChange={setActiveCommentId}
               onDelete={handleDeleteComment}
             />
+            {activeTerm && termTypes && (
+              <TermExplanationPanel
+                term={activeTerm}
+                termTypes={termTypes}
+                onClose={() => setActiveTerm(null)}
+              />
+            )}
             {termTypes && <TermLegend />}
           </>
         ) : (
